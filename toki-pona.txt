@@ -286,6 +286,8 @@ sewi	󱦌	1
 majuna	󱦢	1
 linluwi	󱦤	1
 su	󱦦	1
+te	󱦴	1
+to	󱦵	1
 END_TABlE
 
 ### Since some input methods use different table for every character to make
