@@ -21,7 +21,7 @@ UUID = 4c3f5fa5-c51f-4c20-81ec-52d05f3ed8bc
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
 ### Just make your table version-able
-SERIAL_NUMBER = 20260826
+SERIAL_NUMBER = 20260827
 
 ### ICON can be any format as long as your pygtk can recognized
 ### the most widely ones are "png" and "svg", letter one is recommended
@@ -55,7 +55,7 @@ AUTHOR = jan Kaju <kaiju.blue>
 STATUS_PROMPT = 󱥠󱥔
 
 ### Valid input chars.
-VALID_INPUT_CHARS = aeijklmnopstuw()+-{}.:,<^>!
+VALID_INPUT_CHARS = aeijklmnopstuw()+-[].:,<^>! 
 
 ### Layout
 LAYOUT = us
@@ -77,12 +77,12 @@ DEF_FULL_WIDTH_LETTER = FALSE
 ### Whether user are allow to define phrase, default is true
 ### You have to define the word construction rules below.
 ### For input methods which do not input phrases, set this to False
-USER_CAN_DEFINE_PHRASE = FALSE
+USER_CAN_DEFINE_PHRASE = TRUE
 
 ### Whether support PinYin Mode, default is true.
 ### this feature is just for Chinese, set it to False if your IM is not
 ### Chinese.
-### PINYIN_MODE = TRUE
+PINYIN_MODE = FALSE
 
 ### If true then the phrases' frequencies will be adjusted dynamically
 ### according your using frequency.
@@ -278,8 +278,8 @@ sewi	󱦌	1
 )	󱦑	1
 +	󱦕	1
 -	󱦖	1
-{	󱦗	1
-}	󱦘	1
+[	󱦗	1
+]	󱦘	1
 .	󱦜	1
 :	󱦝	1
 ,	󱦞	1
