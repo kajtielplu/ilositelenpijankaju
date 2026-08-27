@@ -5,7 +5,7 @@
 ni li ilo pi sitelen pona.
 
 1. o pana e ni tawa ilo sona sina.
-2. o pali e `install.sh`. ante la, o pali e ni anpa:
+2. o pali e `install.sh`. ante la, o pali e ni:
 
 ```bash
 sudo ibus-table-createdb -n /usr/share/ibus-table/tables/toki-pona.db -s toki-pona.txt
